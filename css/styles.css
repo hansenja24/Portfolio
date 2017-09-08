@@ -1,10 +1,29 @@
 body{
-  background-color: lightblue;
-}
-.jumbrotron{
-  background-color: lightblue;
+  background-color: #e0edff;
 }
 
-h1{
-  color:red;
+h1.jumbotron{
+  background-color: #c6d9f4;
+  text-align: center;
+}
+
+.jumbotron{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3{
+  text-align: center;
+}
+
+h4.panel-title{
+  text-align: center;
+}
+
+.bg-about{
+  background-color: #cedbed;
+}
+#profile{
+  width: 300px;
+  height: 300px;
 }
