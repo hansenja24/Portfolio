@@ -65,10 +65,14 @@ p.panel-body{
   font-family: fantasy;
 }
 
-#portofolio{
+#portfolio{
   color:#6da4f2;
   font-size: 40px;
   font-family: fantasy;
+}
+
+#readme{
+  visibility: hidden;
 }
 
 .row a:link{
@@ -88,4 +92,28 @@ p.panel-body{
   .panel-body{
     height:140px;
   }
+}
+
+@media screen and (max-width: 620px){
+    #profile{
+      float: none;
+      height:450px;
+    }
+
+    #profile img{
+        width: 400px;
+        height: 400px;
+        display: block;
+        margin: auto;
+      }
+
+      #profile p{
+        text-align: center;
+      }
+
+      #readme{
+        visibility: visible;
+        text-align: center;
+        color:#6da4f2;
+      }
 }
