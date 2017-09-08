@@ -16,8 +16,14 @@ h3{
   text-align: center;
 }
 
+.panel-title{
+  background-color: #e0edff;
+  padding-top:5px;
+  padding-bottom:5px;
+}
 h4.panel-title{
   text-align: center;
+  margin:8px;
 }
 
 .bg-about{
@@ -26,4 +32,24 @@ h4.panel-title{
 #profile{
   width: 300px;
   height: 300px;
+  float:left;
+}
+
+.row a:link{
+  color:black;
+}
+
+.row a:visited{
+  color:black;
+}
+
+
+.col-sm-4:hover{
+  background-color:#8bb5ef;
+}
+
+@media screen and (min-width: 768px){
+  .panel-body{
+    height:140px;
+  }
 }
