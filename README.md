@@ -24,6 +24,6 @@ This exercise for improving student's understanding in HTML and CSS. The main po
 Hansen
 Email: Hansenja24@gmail.com
 
-###License
+### License
 
 MIT license
