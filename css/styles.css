@@ -23,16 +23,52 @@ h3{
 }
 h4.panel-title{
   text-align: center;
-  margin:8px;
+  margin:5px;
+  font-weight: bold;
+}
+
+p.panel-body{
+  font-style: oblique;
 }
 
 .bg-about{
   background-color: #cedbed;
 }
 #profile{
+  float:left;
+  margin-right:25px;
+  height:500px;
+}
+
+#profile img{
   width: 300px;
   height: 300px;
-  float:left;
+}
+
+#profile p{
+  text-align: center;
+}
+
+#epicodus {
+  color:green;
+}
+
+#intro {
+  padding-left:20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#name{
+  color:#6da4f2;
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+#portofolio{
+  color:#6da4f2;
+  font-size: 40px;
+  font-family: fantasy;
 }
 
 .row a:link{
